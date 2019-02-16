@@ -1,0 +1,53 @@
+.asdasd {
+    font-size: 24px;
+  }
+
+  #team_id_welcome{
+    font-weight: bold;
+  }
+
+  .main_title_container {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .main_title {
+    font-weight: normal;
+    font-size: 30pt;
+  }
+
+  .bold_title {
+    font-weight: bolder;
+    font-size: 35pt;
+  }
+
+  .main_paragraph {
+    font-family: Helvetica, sans-serif;
+    width: 90%;
+    margin: auto;
+  }
+
+  .text_input_container {
+    width: 99%;
+    margin: 5%;
+  }
+
+  .text_input {
+    width: 90%;
+    margin: auto;
+  }
+
+  @media screen and (max-width: 1920px) {
+    .images_container {
+      display: flex;
+      flex-flow: row;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .images_container {
+      display: flex;
+      flex-flow: column;
+    }
+}
