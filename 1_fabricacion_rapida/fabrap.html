@@ -5,61 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>index1</title>
-  <style type="text/css">
-    .asdasd {
-      font-size: 24px;
-    }
-
-    .main_title_container {
-      font-family: Helvetica, sans-serif;
-      text-align: center;
-      padding: 5%;
-    }
-
-    .main_title {
-      font-weight: normal;
-      font-size: 30pt;
-    }
-
-    .bold_title {
-      font-weight: bolder;
-      font-size: 35pt;
-    }
-
-    .main_paragraph {
-      font-family: Helvetica, sans-serif;
-      width: 90%;
-      margin: auto;
-    }
-
-    .text_input_container {
-      width: 99%;
-      margin: 5%;
-    }
-
-    .text_input {
-      width: 90%;
-      margin: auto;
-    }
-
-    @media screen and (max-width: 1920px) {
-      .images_container {
-        display: flex;
-        flex-flow: row;
-      }
-    }
-
-    @media screen and (max-width: 600px) {
-      .images_container {
-        display: flex;
-        flex-flow: column;
-      }
-    }
-  </style>
+  <title>Fabricación Rápida</title>
+  <link rel="stylesheet" href="../css/styles.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+ 
 
-  <script>
+  <!--<script>
     $(document).ready(function () {
     $('#formu1').on('submit', function(e) {        
         e.preventDefault();
@@ -76,23 +27,15 @@
         });
     });
 });
-  </script>
+  </script>-->
 
-  <script>
-    var url_string = window.location.href;
-    console.log(url_string)
-    var url = new URL(url_string);
-    var team = url.searchParams.get("t");
-    var place = url.searchParams.get("p");    
-    console.log(team+1);
-    console.log(place);
-
-  </script>
+  
 </head>
 
 <body>
-  Bienvenidos. Lee y realiza lo siguiente:<br />
-
+  <p> Bienvenidos <br> <br> Equipo <span id="team_id_welcome"> nombre equipo </span> en esta estación debes
+   leer y realizar lo siguiente:
+  </p>
   <section>
     <div class="main_title_container">
       <div class="main_title">FABRICACIÓN <span class="bold_title">RÁPIDA</span></div>
@@ -109,7 +52,7 @@
       <img src="../assets/hot_pop_factory.jpg" alt="" width="100%" />
     </div>
   </section>
-
+<!--
   <section>
     <div class="text_input_container">
       <form id="formu1">
@@ -134,13 +77,14 @@
         <input id="saveIdea3" name="saveIdea3" type="submit" value="Enviar Idea 3"></input>
       </form>
   </section>
-
+-->
 
   <p><img src="../images/fabrap.jpg" width="100%" /></p>
   <p><img src="../images/fabrap2.jpg" alt="" width="100%" /><br />
     <br />
     <span class="asdasd">Siguiente paso: <strong><a href="../sitios/BY.html">HAZ CLIC AQUÍ</a></strong></span><br /><br />
   </p>
-</body>
 
+</body>
+ <script src="script_fabrap.js"></script>
 </html>
