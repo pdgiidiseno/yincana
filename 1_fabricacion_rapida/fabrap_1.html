@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>index1</title>
+  <style type="text/css">
+    .asdasd {
+      font-size: 24px;
+    }
+
+    .main_title_container {
+      font-family: Helvetica, sans-serif;
+      text-align: center;
+      padding: 5%;
+    }
+
+    .main_title {
+      font-weight: normal;
+      font-size: 30pt;
+    }
+
+    .bold_title {
+      font-weight: bolder;
+      font-size: 35pt;
+    }
+
+    .main_paragraph {
+      font-family: Helvetica, sans-serif;
+      width: 90%;
+      margin: auto;
+    }
+
+    .text_input_container {
+      width: 99%;
+      margin: 5%;
+    }
+
+    .text_input {
+      width: 90%;
+      margin: auto;
+    }
+
+    @media screen and (max-width: 1920px) {
+      .images_container {
+        display: flex;
+        flex-flow: row;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .images_container {
+        display: flex;
+        flex-flow: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  Bienvenidos. Lee y realiza lo siguiente:<br />
+
+  <section>
+    <div class="main_title_container">
+      <div class="main_title">FABRICACIÓN <span class="bold_title">RÁPIDA</span></div>
+    </div>
+    <p class="main_paragraph">Se utiliza para crear rápidamente maquetas, prototipos y hasta productos reales.
+      Permite trabajar elementos personalizados, sin mayor desperdicio y formas complejas. En el futuro las personas
+      tendrán sus impresoras en casa y se venderán archivos
+      digitales. La producción tenderá a ser local y permite bajos volúmenes de producción.</p>
+  </section>
+
+  <section>
+    <div class="images_container">
+      <img src="../assets/impresion3D.jpg" alt="" width="100%" />
+      <img src="../assets/hot_pop_factory.jpg" alt="" width="100%" />
+    </div>
+  </section>
+
+  <section>
+    <div class="text_input_container">
+      <form>
+        <h2>Idea 1</h2>
+        <h3>(300 caracteres) <span id="idea_1_count">0</span></h3>
+        <textarea class="text_input" name="paragraph_text" cols="50" rows="10"></textarea>
+        <br>
+        <input id="saveIdea1" name="saveIdea1" type="submit" value="Enviar Idea 1"></input>
+      </form>
+      <form>
+        <h2>Idea 2</h2>
+        <h3>(300 caracteres) <span id="idea_1_count">0</span></h3>
+        <textarea class="text_input" name="paragraph_text" cols="50" rows="10"></textarea>
+        <br>
+        <input id="saveIdea2" name="saveIdea2" type="submit" value="Enviar Idea 2"></input>
+      </form>
+      <form>
+        <h2>Idea 3</h2>
+        <h3>(300 caracteres) <span id="idea_1_count">0</span></h3>
+        <textarea class="text_input" name="paragraph_text" cols="50" rows="10"></textarea>
+        <br>
+        <input id="saveIdea3" name="saveIdea3" type="submit" value="Enviar Idea 3"></input>
+      </form>
+  </section>
+
+
+  <p><img src="../images/fabrap.jpg" width="100%" /></p>
+  <p><img src="../images/fabrap2.jpg" alt="" width="100%" /><br />
+    <br />
+    <span class="asdasd">Siguiente paso: <strong><a href="../sitios/BY.html">HAZ CLIC AQUÍ</a></strong></span><br /><br />
+  </p>
+</body>
+
+</html>
