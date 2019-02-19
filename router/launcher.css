@@ -1,4 +1,7 @@
-
+body{
+    background-color: rgb(30, 30, 30);
+    color: #ffffff;
+}
 
 h1{
     text-align: center;
@@ -13,7 +16,8 @@ h3{
     text-align: center;    
 }
 
-#main_content{
-    width: 200px;
-    margin: auto;    
+#main_content{    
+    width: 320px;
+    margin: auto;
+    text-align: center;
 }
