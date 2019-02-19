@@ -1,65 +1,129 @@
-.asdasd {
-    font-size: 24px;
-  }
+/*
+  *** Encabezado
+*/
 
-  #team_id_welcome{
-    font-weight: bold;
-  }
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
 
-  .main_title_container {
-    font-family: Helvetica, sans-serif;
+#team_id_welcome {
+  font-weight: bold;
+}
+
+/*
+  *** Titulo
+*/
+
+.main_title_container {
+  font-family: Helvetica, sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5%;
+  background-color: #000;
+}
+
+.main_title {
+  font-weight: normal;
+  font-size: 30pt;  
+}
+
+.bold_title {
+  font-weight: bolder;
+  font-size: 35pt;
+}
+
+.main_paragraph {
+  font-family: Helvetica, sans-serif;
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+/*
+  *** imagenes
+*/
+
+.content_images {
+  margin: auto;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 1920px) {
+  .images_container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
     text-align: center;
-    padding: 5%;
   }
+}
 
-  .main_title {
-    font-weight: normal;
-    font-size: 30pt;
+@media screen and (max-width: 600px) {
+  .images_container {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
   }
+}
 
-  .bold_title {
-    font-weight: bolder;
-    font-size: 35pt;
-  }
+/*
+  *** enlaces
+*/
 
-  .main_paragraph {
-    font-family: Helvetica, sans-serif;
-    width: 90%;
-    margin: auto;
-  }
+.section_links {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F3F3F3;
+}
 
-  .text_input_container {
-    width: 99%;
-    margin: 5%;
-  }
+.section_links div {
+  font-size: 20pt;
+  align-content: center;
+  text-align: center;
+  padding: 2%;
+}
 
-  .text_input {
-    width: 90%;
-    margin: auto;
-  } 
+/*
+  *** pistas
+*/
+
+.section_tips{
+  background-color: #F3F3F3;
+  padding: 2%;  
+}
+
+.show_tip {
+  display: initial;
+  color: #000;
+}
+
+.hidden_tip {
+  display: none;
+  color: white;
+}
+
+/*
+  *** estilos generales
+*/
+
+.neutral_text_feedback {
+  color: #000;
+  font-weight: bold;
+}
+
+.ok_text_feedback {
+  color: green;
+  font-weight: bold;
+}
+
+.error_text_feedback {
+  color: red;
+  font-weight: bold;
+}
 
 
-
-  @media screen and (max-width: 1920px) {
-    .images_container {
-      display: flex;
-      flex-flow: row;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .images_container {
-      display: flex;
-      flex-flow: column;
-      
-    }   
-    #a{
-      width: 90%;
-    }
-    #b{
-      width: 90%;
-    }
-    #c{
-      width: 90%;
-    }
-  }
+.middle_title{
+  background-color: #CCC;  
+  text-align: center;
+  padding: 2%;
+}

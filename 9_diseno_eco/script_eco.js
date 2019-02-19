@@ -1,4 +1,4 @@
-var globalID = 1; // estación número?
+var globalID = 9; // estación número?
 var secret1 = "a";
 var secret2 = "b";
 var secret3 = "c";
