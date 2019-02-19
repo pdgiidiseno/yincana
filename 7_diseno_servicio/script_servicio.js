@@ -1,7 +1,7 @@
 var globalID = 7; // estación número?
-var secret1 = "a";
-var secret2 = "b";
-var secret3 = "c";
+var secret1 = "confiable";
+var secret2 = "oportuno";
+var secret3 = "efectivo";
 
 var places = ["BIENVENIDO A LA YINCANA", /*0*/
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/AZ.html\">HAZ CLIC AQUÍ</a></strong>", /*1*/

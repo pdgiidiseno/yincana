@@ -1,7 +1,7 @@
 var globalID = 9; // estación número?
-var secret1 = "a";
-var secret2 = "b";
-var secret3 = "c";
+var secret1 = "naturaleza";
+var secret2 = "planeta";
+var secret3 = "silvestre";
 
 var places = ["BIENVENIDO A LA YINCANA", /*0*/
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/AZ.html\">HAZ CLIC AQUÍ</a></strong>", /*1*/
@@ -60,6 +60,8 @@ var pistaC = document.getElementById("c");
 
 pistaA.addEventListener("change", function () {
     var feeback = document.getElementById("feedback_clave1");
+    pistaA.value
+    
     if (pistaA.value === secret1) {
         feeback.innerHTML = " Correcto";
         feeback.className = "ok_text_feedback";
