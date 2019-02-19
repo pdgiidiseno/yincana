@@ -7,11 +7,11 @@ var placesNames = [
     "Estación Diseño Paramétrico", /*2*/
     "Estación Diseño para Manufactura", /*3*/
     "Estación Diseño para Montaje", /*4*/
-    "Estación Diseño para Logistica", /*5*/
-    "Estación Diseño para Calida", /*6*/
+    "Estación Diseño para Logística", /*5*/
+    "Estación Diseño para Calidad", /*6*/
     "Estación Diseño para Servicio", /*7*/
     "Estación Diseño para Desmontaje", /*8*/
-    "Estación Diseño mpara el medio ambiente", /*9*/
+    "Estación Diseño para el Medio Ambiente", /*9*/
     "Fin" /*10*/
 ];
 
