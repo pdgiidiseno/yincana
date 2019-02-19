@@ -113,3 +113,43 @@ function showTip() {
         tipText.className = "hidden_tip";
     }
 }
+
+
+var btn = document.getElementById("btn");
+btn.addEventListener("click", function () {
+
+    var feeback = document.getElementById("feedback_clave1");
+    if (pistaA.value === secret1) {
+        feeback.innerHTML = " Correcto";
+        feeback.className = "ok_text_feedback";
+        pistas[0] = true;
+    } else {
+        feeback.innerHTML = " Oh Oh!! incorrecto";
+        feeback.className = "error_text_feedback";
+        pistas[0] = false;
+    }
+
+    var feeback = document.getElementById("feedback_clave2");
+    if (pistaB.value === secret2) {
+        feeback.innerHTML = " Correcto";
+        feeback.className = "ok_text_feedback";
+        pistas[1] = true;
+    } else {
+        feeback.innerHTML = " Oh Oh!! incorrecto";
+        feeback.className = "error_text_feedback";
+        pistas[1] = false;
+    }
+
+    var feeback = document.getElementById("feedback_clave3");
+    if (pistaC.value === secret3) {
+        feeback.innerHTML = " Correcto";
+        feeback.className = "ok_text_feedback";
+        pistas[2] = true;
+    } else {
+        feeback.innerHTML = " Oh Oh!! incorrecto";
+        feeback.className = "error_text_feedback";
+        pistas[2] = false;
+    }
+
+    showTip();
+});
