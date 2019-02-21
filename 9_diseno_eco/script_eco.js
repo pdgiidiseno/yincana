@@ -1,7 +1,4 @@
 var globalID = 9; // estación número?
-var secret1 = "naturaleza";
-var secret2 = "planeta";
-var secret3 = "silvestre";
 
 var url = new URL(window.location.href);
 var team = url.searchParams.get("t");
@@ -18,9 +15,7 @@ var pistaC = document.getElementById("c");
 
 pistaA.addEventListener("change", function () {
     var feeback = document.getElementById("feedback_clave1");
-    pistaA.value
-    
-    if (pistaA.value === secret1) {
+    if (pistaA.value === secretos[globalID][0]) {
         feeback.innerHTML = " Correcto";
         feeback.className = "ok_text_feedback";
         pistas[0] = true;
@@ -34,7 +29,7 @@ pistaA.addEventListener("change", function () {
 
 pistaB.addEventListener("change", function () {
     var feeback = document.getElementById("feedback_clave2");
-    if (pistaB.value === secret2) {
+    if (pistaB.value === secretos[globalID][1]) {
         feeback.innerHTML = " Correcto";
         feeback.className = "ok_text_feedback";
         pistas[1] = true;
@@ -49,7 +44,7 @@ pistaB.addEventListener("change", function () {
 
 pistaC.addEventListener("change", function () {
     var feeback = document.getElementById("feedback_clave3");
-    if (pistaC.value === secret3) {
+    if (pistaC.value === secretos[globalID][2]) {
         feeback.innerHTML = " Correcto";
         feeback.className = "ok_text_feedback";
         pistas[2] = true;
@@ -79,7 +74,7 @@ var btn = document.getElementById("btn");
 btn.addEventListener("click", function () {
 
     var feeback = document.getElementById("feedback_clave1");
-    if (pistaA.value === secret1) {
+    if (pistaA.value === secretos[globalID][0]) {
         feeback.innerHTML = " Correcto";
         feeback.className = "ok_text_feedback";
         pistas[0] = true;
@@ -90,7 +85,7 @@ btn.addEventListener("click", function () {
     }
 
     var feeback = document.getElementById("feedback_clave2");
-    if (pistaB.value === secret2) {
+    if (pistaB.value === secretos[globalID][1]) {
         feeback.innerHTML = " Correcto";
         feeback.className = "ok_text_feedback";
         pistas[1] = true;
@@ -101,7 +96,7 @@ btn.addEventListener("click", function () {
     }
 
     var feeback = document.getElementById("feedback_clave3");
-    if (pistaC.value === secret3) {
+    if (pistaC.value === secretos[globalID][2]) {
         feeback.innerHTML = " Correcto";
         feeback.className = "ok_text_feedback";
         pistas[2] = true;

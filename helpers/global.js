@@ -27,6 +27,19 @@ var teams = [
 /*11*/ "Residuos Orgánicos"
 ];
 
+var secretos = [ 
+    ["X","Y","Z"],/*0*/
+    ["impreso", "molde", "digital"],/*1. Fabricación Rápida*/
+    ["entradas", "procesos", "salidas"],/*2. Paramétrico*/
+    ["fabrica","producto","gestionable"],/*3. Manufactura*/
+    ["seguro","ensamble","simple"],/*4. Montaje*/
+    ["optimo","rendimiento","consistente"],/*5. Logística*/
+    ["resistente","reparable","eficaz"],/*6. Calidad*/
+    ["confiable","oportuno","efectivo"],/*7. Servicio*/
+    ["flexible","ligero","modular"],/*8. Desmontaje*/
+    ["naturaleza","planeta","silvestre"] /*9. Medio Ambiente*/
+];
+
 var rutaGrupo0 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var rutaGrupo1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var rutaGrupo2 = [0, 2, 3, 4, 5, 6, 7, 8, 9, 1, 10];
