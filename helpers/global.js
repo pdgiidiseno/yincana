@@ -1,4 +1,5 @@
-var places = ["BIENVENIDO A LA YINCANA", /*0*/
+var places = [
+"BIENVENIDO A LA YINCANA", /*0*/
 "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/AZ.html\">HAZ CLIC AQUÍ</a></strong>", /*1*/
 "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/BY.html\">HAZ CLIC AQUÍ</a></strong>", /*2*/
 "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/CX.html\">HAZ CLIC AQUÍ</a></strong>", /*3*/
@@ -11,7 +12,8 @@ var places = ["BIENVENIDO A LA YINCANA", /*0*/
 "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/JQ.html\">HAZ CLIC AQUÍ</a></strong>" /*10*/
 ]
 
-var teams = ["profes", /*0*/
+var teams = [ 
+/*0*/ "profes",
 /*1*/ "Cadera / rodilla",
 /*2*/ "Comida Ambulantes",
 /*3*/ "Cultivos hidropónicos",
