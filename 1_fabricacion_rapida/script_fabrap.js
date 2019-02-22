@@ -8,6 +8,7 @@ title_team.innerText = "" + teams[parseInt(team)];
 
 var feedbacks = document.getElementsByClassName("feedback_clave");
 var entradaPistas = document.getElementsByClassName("entradas_pistas_claves");
+
 for (let i = 0; i < 3; i++) {
     entradaPistas[i].addEventListener("change", function () {
         validar(i);

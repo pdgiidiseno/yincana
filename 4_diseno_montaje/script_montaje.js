@@ -6,20 +6,17 @@ var team = url.searchParams.get("t");
 var title_team = document.getElementById("team_id_welcome");
 title_team.innerText = "" + teams[parseInt(team)];
 
-var pistas = [false, false, false];
-showTip();
-
 var feedbacks = document.getElementsByClassName("feedback_clave");
 var entradaPistas = document.getElementsByClassName("entradas_pistas_claves");
 
-for(let i = 0 ; i < 3 ; i++){
-    entradaPistas[i].addEventListener("change", function(){
+for (let i = 0; i < 3; i++) {
+    entradaPistas[i].addEventListener("change", function () {
         validar(i);
     });
 }
 
 var btn = document.getElementById("btn");
-btn.addEventListener("click", function(){
+btn.addEventListener("click", function () {
     validar(0);
     validar(1);
     validar(2);
@@ -27,6 +24,7 @@ btn.addEventListener("click", function(){
 
 function validar(i) {
     let actualFeedback = feedbacks[i];
+    let pistas = [false, false, false];
     if (entradaPistas[i].value === secretos[globalID][i]) {
         actualFeedback.innerHTML = " Correcto";
         actualFeedback.className = "ok_text_feedback feedback_clave";
@@ -36,10 +34,10 @@ function validar(i) {
         actualFeedback.className = "error_text_feedback feedback_clave";
         pistas[i] = false;
     }
-    showTip();
+    showTip(pistas);
 }
 
-function showTip() {
+function showTip(pistas) {
     var tipText = document.getElementById("url_next_container");
     if (pistas[0] === true && pistas[1] === true && pistas[2] === true) {
         tipText.className = "show_tip";
