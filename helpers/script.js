@@ -5,9 +5,9 @@ console.log("script");
 var title_team = document.getElementById("team_id_welcome");
 title_team.innerText = "" + teams[parseInt(team)];
 
-var linkPista = document.getElementsByClassName("a_link_pista");
+var linkPista = document.getElementsByClassName("links_pistas");
 for (let i = 0; i < linkPista.length; i++) {
-    linkPista[i].setAttribute('href', enlacesPistas[globalID]);
+    linkPista[i].setAttribute('href', enlacesPistas[globalID]);    
 }
 
 var feedbacks = document.getElementsByClassName("feedback_clave");
