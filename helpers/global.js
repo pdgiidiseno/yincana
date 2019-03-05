@@ -1,15 +1,15 @@
 var places = [
     "BIENVENIDO A LA YINCANA", /*0*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/AZ.html\">HAZ CLIC AQUÍ</a></strong>", /*1*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/BY.html\">HAZ CLIC AQUÍ</a></strong>", /*2*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/CX.html\">HAZ CLIC AQUÍ</a></strong>", /*3*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/DW.html\">HAZ CLIC AQUÍ</a></strong>", /*4*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/EV.html\">HAZ CLIC AQUÍ</a></strong>", /*5*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/FU.html\">HAZ CLIC AQUÍ</a></strong>", /*6*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/GT.html\">HAZ CLIC AQUÍ</a></strong>", /*7*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/HS.html\">HAZ CLIC AQUÍ</a></strong>", /*8*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/IR.html\">HAZ CLIC AQUÍ</a></strong>", /*9*/
-    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/JQ.html\">HAZ CLIC AQUÍ</a></strong>" /*10*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/AZ.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 1*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/BY.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 2*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/CX.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 3*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/DW.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 4*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/EV.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 5*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/FU.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 6*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/GT.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 7*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/HS.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 8*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/IR.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 9*/
+    "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/JQ.html\">HAZ CLIC AQUÍ</a></strong>" /*envia al 10*/
 ]
 
 var teams = [
@@ -34,18 +34,7 @@ var teams = [
     "AR HITO" /*18*/
 ];
 
-var secretos = [
-    ["X", "Y", "Z"], /*0*/
-    ["impreso", "molde", "digital"], /*1. Fabricación Rápida*/
-    ["entradas", "procesos", "salidas"], /*2. Paramétrico*/
-    ["fabrica", "producto", "gestionable"], /*3. Manufactura*/
-    ["seguro", "ensamble", "simple"], /*4. Montaje*/
-    ["optimo", "rendimiento", "consistente"], /*5. Logística*/
-    ["resistente", "reparable", "eficaz"], /*6. Calidad*/
-    ["confiable", "oportuno", "efectivo"], /*7. Servicio*/
-    ["flexible", "ligero", "modular"], /*8. Desmontaje*/
-    ["naturaleza", "planeta", "silvestre"] /*9. Medio Ambiente*/
-];
+
 
 var rutaGrupo0 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var rutaGrupo1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -89,18 +78,31 @@ var rutas = [
     rutaGrupo18,
 ];
 
+var secretos = [
+    ["proyecto", "de", "grado 2"], /*0. esquema*/
+    ["impreso", "molde", "digital"], /*1. produccion*/
+    ["pago", "entrega", "experiencia"], /*2. adquisicion*/
+    ["efectiva", "ágil", "gestionable"], /*3. distribución*/
+    ["seguro", "ensamble", "simple"], /*4. instalacion*/
+    ["optimo", "rendimiento", "consistente"], /*5. usabilidad*/
+    ["conectado", "confiable", "eficaz"], /*6. conectividad*/
+    ["patrones", "color", "estilo"], /*7. visualizacion*/
+    ["flexible", "ligero", "modular"], /*8. mantenimiento*/
+    ["cuidado", "planeta", "naturaleza"] /*9. diposicion*/
+    ["deseable", "factible", "viable"] /*10. integración*/
+];
+
 
 var enlacesPistas = [
-    "https://www.facebook.com" /* 0 */ ,
-    "https://www.facebook.com" /* 1 */ ,
-    "https://www.facebook.com" /* 2 */ ,
-    "https://www.facebook.com" /* 3 */ ,
-    "https://www.facebook.com" /* 4 */ ,
-    "https://www.facebook.com" /* 5 */ ,
-    "https://www.facebook.com" /* 6 */ ,
-    "https://www.facebook.com" /* 7 */ ,
-    "https://www.facebook.com" /* 8 */ ,
-    "https://www.facebook.com" /* 9 */ ,
-    "https://www.facebook.com" /* 10 */ ,
-    "https://www.facebook.com" /* 11 */
+    "https://goo.gl/forms/Qa3xej9wPQXgt4Fi1" /* 0 */ ,
+    "https://goo.gl/forms/0KPxLIhR2a2woSYh2" /* 1 */ ,
+    "https://goo.gl/forms/PIzpdq5by7tFe6wl2" /* 2 */ ,
+    "https://goo.gl/forms/Ce7rnLtU7RoQcvjB2" /* 3 */ ,
+    "https://goo.gl/forms/LcfW7xpGSDSN08ni2" /* 4 */ ,
+    "https://goo.gl/forms/FlnyJ9l7rHJpThbG3" /* 5 */ ,
+    "https://goo.gl/forms/daRDSS4bqMwIN3kf2" /* 6 */ ,
+    "https://goo.gl/forms/SJ8kQW17KEuGLnGI2" /* 7 */ ,
+    "https://goo.gl/forms/i4I7Di50EjBDachx1" /* 8 */ ,
+    "https://goo.gl/forms/Fw4dUYhQXvhFOL8d2" /* 9 */ ,
+    "https://goo.gl/forms/uEiJ6HByRW4oCgaA3" /* 10 */ ,    
 ];
