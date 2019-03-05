@@ -5,6 +5,8 @@
 body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 #team_id_welcome {
@@ -19,23 +21,25 @@ body {
   font-family: Helvetica, sans-serif;
   color: #FFFFFF;
   text-align: center;
-  padding: 5%;
+  padding: 1em;
   background-color: #000;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .main_title {
   font-weight: normal;
-  font-size: 30pt;  
+  font-size: 2em;
 }
 
 .bold_title {
   font-weight: bolder;
-  font-size: 35pt;
+  font-size: 1em;
 }
 
 .main_paragraph {
   font-family: Helvetica, sans-serif;
-  width: 90%;
+  width: 95%;
   margin: auto;
   margin-top: 2em;
 }
@@ -51,6 +55,7 @@ body {
 
 @media screen and (max-width: 1920px) {
   .images_container {
+    margin: 2em;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -60,6 +65,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .images_container {
+    margin: 1em;
     display: flex;
     flex-flow: column;
     text-align: center;
