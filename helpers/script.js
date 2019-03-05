@@ -36,11 +36,13 @@ function validar(i) {
         actualFeedback.className = "error_text_feedback feedback_clave";
         pistas[i] = false;
     }
+    console.log("validando!!");
     showTip(pistas);
 }
 
 function showTip(pistas) {
-    var tipText = document.getElementById("url_next_container");
+    console.log("mostrando TIP");
+    let tipText = document.getElementById("url_next_container");
     if (pistas[0] === true && pistas[1] === true && pistas[2] === true) {
         tipText.className = "show_tip";
         var ubicacionActual = rutas[parseInt(team)].indexOf(globalID);
