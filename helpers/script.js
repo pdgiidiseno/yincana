@@ -1,6 +1,6 @@
 var url = new URL(window.location.href);
 var team = url.searchParams.get("t");
-
+console.log("script");
 var title_team = document.getElementById("team_id_welcome");
 title_team.innerText = "" + teams[parseInt(team)];
 
