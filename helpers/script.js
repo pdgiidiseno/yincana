@@ -26,7 +26,7 @@ btn.addEventListener("click", function () {
 
 function validar(i) {
     let actualFeedback = feedbacks[i];
-    let pistas = [false, false, false];
+    var pistas = [false, false, false];
     if (entradaPistas[i].value === secretos[globalID][i]) {
         actualFeedback.innerHTML = " Correcto";
         actualFeedback.className = "ok_text_feedback feedback_clave";
@@ -36,7 +36,7 @@ function validar(i) {
         actualFeedback.className = "error_text_feedback feedback_clave";
         pistas[i] = false;
     }
-    console.log("validando!!");
+    console.log("validando!!" + pistas);
     showTip(pistas);
 }
 
