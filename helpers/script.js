@@ -5,36 +5,38 @@ var title_team = document.getElementById("team_id_welcome");
 title_team.innerText = "" + teams[parseInt(team)];
 
 var linkPista = document.getElementsByClassName("a_link_pista");
-for(let i = 0 ; i < linkPista.length ; i++){
+for (let i = 0; i < linkPista.length; i++) {
     linkPista[i].setAttribute('href', enlacesPistas[globalID]);
 }
 
 var feedbacks = document.getElementsByClassName("feedback_clave");
 var entradaPistas = document.getElementsByClassName("entradas_pistas_claves");
-for (let i = 0; i < 3; i++) {
-    entradaPistas[i].addEventListener("change", function () {
-        validar(i);
-    });
-}
+//for (let i = 0; i < 3; i++) {
+// entradaPistas[i].addEventListener("change", function () {
+validar();
+// });
+//}
 
 var btn = document.getElementById("btn");
 btn.addEventListener("click", function () {
-    validar(0);
-    validar(1);
-    validar(2);
+    validar();
+    //validar();
+    //validar();
 });
 
-function validar(i) {
+function validar() {
     let actualFeedback = feedbacks[i];
-    var pistas = [false, false, false];
-    if (entradaPistas[i].value === secretos[globalID][i]) {
-        actualFeedback.innerHTML = " Correcto";
-        actualFeedback.className = "ok_text_feedback feedback_clave";
-        pistas[i] = true;
-    } else {
-        actualFeedback.innerHTML = " Oh Oh!! incorrecto";
-        actualFeedback.className = "error_text_feedback feedback_clave";
-        pistas[i] = false;
+    let pistas = [false, false, false];
+    for (let i = 0; i < 3; i++) {
+        if (entradaPistas[i].value === secretos[globalID][i]) {
+            actualFeedback.innerHTML = " Correcto";
+            actualFeedback.className = "ok_text_feedback feedback_clave";
+            pistas[i] = true;
+        } else {
+            actualFeedback.innerHTML = " Oh Oh!! incorrecto";
+            actualFeedback.className = "error_text_feedback feedback_clave";
+            pistas[i] = false;
+        }
     }
     console.log("validando!!" + pistas);
     showTip(pistas);
