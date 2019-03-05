@@ -35,7 +35,6 @@ var teams = [
 ];
 
 
-
 var rutaGrupo0 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var rutaGrupo1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var rutaGrupo2 = [0, 2, 3, 4, 5, 6, 7, 8, 9, 1, 10];
@@ -56,27 +55,11 @@ var rutaGrupo16 = [0, 7, 8, 9, 1, 2, 3, 4, 5, 6, 10];
 var rutaGrupo17 = [0, 8, 9, 1, 2, 3, 4, 5, 6, 7, 10];
 var rutaGrupo18 = [0, 9, 1, 2, 3, 4, 5, 6, 7, 8, 10];
 
-var rutas = [
-    rutaGrupo0,
-    rutaGrupo1,
-    rutaGrupo2,
-    rutaGrupo3,
-    rutaGrupo4,
-    rutaGrupo5,
-    rutaGrupo6,
-    rutaGrupo7,
-    rutaGrupo8,
-    rutaGrupo9,
-    rutaGrupo10,
-    rutaGrupo11,
-    rutaGrupo12,
-    rutaGrupo13,
-    rutaGrupo14,
-    rutaGrupo15,
-    rutaGrupo16,
-    rutaGrupo17,
-    rutaGrupo18,
-];
+var rutas = [rutaGrupo0,rutaGrupo1,rutaGrupo2,
+    rutaGrupo3,rutaGrupo4,rutaGrupo5,rutaGrupo6,
+    rutaGrupo7,rutaGrupo8,rutaGrupo9,rutaGrupo10,
+    rutaGrupo11,rutaGrupo12,rutaGrupo13,rutaGrupo14,
+    rutaGrupo15,rutaGrupo16,rutaGrupo17,rutaGrupo18];
 
 var secretos = [
     ["proyecto", "de", "grado 2"], /*0. esquema*/
@@ -104,5 +87,5 @@ var enlacesPistas = [
     "https://goo.gl/forms/SJ8kQW17KEuGLnGI2" /* 7 */ ,
     "https://goo.gl/forms/i4I7Di50EjBDachx1" /* 8 */ ,
     "https://goo.gl/forms/Fw4dUYhQXvhFOL8d2" /* 9 */ ,
-    "https://goo.gl/forms/uEiJ6HByRW4oCgaA3" /* 10 */ ,    
+    "https://goo.gl/forms/uEiJ6HByRW4oCgaA3" /* 10 */ ,
 ];
