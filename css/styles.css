@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+h4{
+  padding: 1em;
+}
+
 #team_id_welcome {
   font-weight: bold;
 }
