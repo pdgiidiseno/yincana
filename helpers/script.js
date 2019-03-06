@@ -27,7 +27,7 @@ function validar() {
     let pistas = [false, false, false];
     for (let i = 0; i < 3; i++) {
         let actualFeedback = feedbacks[i];
-        if ((entradaPistas[i].value).toUpperCase() === (secretos[globalID][i]).toUpperCase()) {
+        if (((entradaPistas[i].value).toUpperCase()).trim() === ((secretos[globalID][i]).toUpperCase()).trim()) {
             actualFeedback.innerHTML = " Correcto";
             actualFeedback.className = "ok_text_feedback feedback_clave";
             pistas[i] = true;

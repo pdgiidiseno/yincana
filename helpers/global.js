@@ -71,7 +71,7 @@ var secretos = [
     ["conectado", "confiable", "eficaz"], /*6. conectividad*/
     ["patrones", "color", "estilo"], /*7. visualizacion*/
     ["flexible", "ligero", "modular"], /*8. mantenimiento*/
-    ["cuidado", "planeta", "naturaleza"] /*9. diposicion*/
+    ["cuidado", "planeta", "naturaleza"], /*9. diposicion*/
     ["deseable", "factible", "viable"] /*10. integración*/
 ];
 
