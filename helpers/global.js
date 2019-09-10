@@ -13,29 +13,35 @@ var places = [
 ]
 
 var teams = [
-    "profesores" /*0*/ ,
-    "Cadera / rodilla" /*1*/ ,
-    "Comida Ambulantes" /*2*/ ,
-    "Cultivos hidropónicos" /*3*/ ,
-    "Geriatrico" /*4*/ ,
-    "Nirvana" /*5*/ ,
-    "Segunda Mano" /*6*/ ,
-    "Sordos" /*7*/ ,
-    "TDAH" /*8*/ ,
-    "Vino Mora" /*9*/ ,
-    "Zoo Prof/Pend" /*10*/ ,
-    "Residuos Orgánicos" /*11*/ ,
-    "E-commerce" /*12*/ ,
-    "Manicuristas" /*13*/ ,
-    "Ornitología" /*14*/ ,
-    "Para-power lifting" /*15*/ ,
-    "Procastinación" /*16*/ ,
-    "Valle del Lili" /*17*/ ,
-    "AR HITO" /*18*/
+    "Aceite" /*0*/ ,
+    "Aguas San Cipriano" /*1*/ ,
+    "Alquiler Vivienda" /*2*/ ,
+    "Bata blanca" /*3*/ ,
+    "Bioacústica" /*4*/ ,
+    "Guardas seguridad" /*5*/ ,
+    "Ladrillos" /*6*/ ,
+    "Liquidos excretados" /*7*/ ,
+    "Logistica mudanza" /*8*/ ,
+    "Marcación tiburón" /*9*/ ,
+    "Reducción peso" /*10*/ ,
+    "Sicosocial Lili" /*11*/ ,
+    "Acoso callejero" /*12*/ ,
+    "Ai creativa" /*13*/ ,
+    "Eficacia Shopper" /*14*/ ,
+    "Esguince tobillo" /*15*/ ,
+    "Gamificación" /*16*/ ,
+    "Innlab" /*17*/ ,
+    "Magioruga" /*18*/ ,
+    "Parálisis Cerebral" /*19*/ ,
+    "Turnos" /*20*/ ,
+    "Lideres Sociales" /*21*/
 ];
 
 
+
+
 var rutaGrupo0 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
 var rutaGrupo1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var rutaGrupo2 = [0, 2, 3, 4, 5, 6, 7, 8, 9, 1, 10];
 var rutaGrupo3 = [0, 3, 4, 5, 6, 7, 8, 9, 1, 2, 10];
@@ -54,12 +60,21 @@ var rutaGrupo15 = [0, 6, 7, 8, 9, 1, 2, 3, 4, 5, 10];
 var rutaGrupo16 = [0, 7, 8, 9, 1, 2, 3, 4, 5, 6, 10];
 var rutaGrupo17 = [0, 8, 9, 1, 2, 3, 4, 5, 6, 7, 10];
 var rutaGrupo18 = [0, 9, 1, 2, 3, 4, 5, 6, 7, 8, 10];
+/*ADD*/
+var rutaGrupo19 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var rutaGrupo20 = [0, 2, 3, 4, 5, 6, 7, 8, 9, 1, 10];
+var rutaGrupo21 = [0, 3, 4, 5, 6, 7, 8, 9, 1, 2, 10];
 
-var rutas = [rutaGrupo0,rutaGrupo1,rutaGrupo2,
-    rutaGrupo3,rutaGrupo4,rutaGrupo5,rutaGrupo6,
-    rutaGrupo7,rutaGrupo8,rutaGrupo9,rutaGrupo10,
-    rutaGrupo11,rutaGrupo12,rutaGrupo13,rutaGrupo14,
-    rutaGrupo15,rutaGrupo16,rutaGrupo17,rutaGrupo18];
+var rutas = [
+    rutaGrupo0, rutaGrupo1, rutaGrupo2,
+    rutaGrupo3, rutaGrupo4, rutaGrupo5,
+    rutaGrupo6, rutaGrupo7, rutaGrupo8,
+    rutaGrupo9, rutaGrupo10, rutaGrupo11,
+    rutaGrupo12, rutaGrupo13, rutaGrupo14,
+    rutaGrupo15, rutaGrupo16, rutaGrupo17,
+    rutaGrupo18, rutaGrupo19, rutaGrupo20,
+    rutaGrupo21
+];
 
 var secretos = [
     ["proyecto", "de", "grado 2"], /*0. esquema*/
