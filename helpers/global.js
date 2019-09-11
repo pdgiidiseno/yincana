@@ -12,7 +12,7 @@ var places = [
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/JQ.html\">HAZ CLIC AQUÍ</a></strong>" /*envia al 10*/
 ]
 
-var teams = [
+var teams = [ "",
     "Aceite" /*0*/ ,
     "Aguas San Cipriano" /*1*/ ,
     "Alquiler Vivienda" /*2*/ ,
@@ -24,7 +24,7 @@ var teams = [
     "Logistica mudanza" /*8*/ ,
     "Marcación tiburón" /*9*/ ,
     "Reducción peso" /*10*/ ,
-    "Sicosocial Lili" /*11*/ ,
+    "Vacunación" /*11*/ ,
     "Acoso callejero" /*12*/ ,
     "Ai creativa" /*13*/ ,
     "Eficacia Shopper" /*14*/ ,
