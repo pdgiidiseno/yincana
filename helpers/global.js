@@ -10,7 +10,7 @@ var places = [
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/HS.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 8*/
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/IR.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 9*/
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/JQ.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 10*/
-    "Regresa al innlab!! pronto" /*envia al 11*/
+    "<H1>Enhorabuena habeís finalizado el proceso, andá y bebed alguna bebida refrescante</h1>" /*envia al 11*/
 ]
 
 var teams = [

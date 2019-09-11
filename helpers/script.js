@@ -44,14 +44,20 @@ function showTip(pistas) {
     let tipText = document.getElementById("url_next_container");
     if (pistas[0] === true && pistas[1] === true && pistas[2] === true) {
         tipText.className = "show_tip";
+        console.log("Global ID: " + globalID);
         var ubicacionActual = rutas[parseInt(team)].indexOf(globalID);
         console.log("ubicacion: " +  ubicacionActual);
-        var indiceDestino = (ubicacionActual + 1);
-        console.log("indiceDestino: " +  indiceDestino);
-        var destino = rutas[parseInt(team)][indiceDestino];
-        console.log("destino: " +  destino);
-        tipText.innerHTML = places[destino];
-        console.log("Destino: " + places[destino]);
+        if(ubicacionActual === -1){            
+            tipText.innerHTML = places[11];
+            console.log("FIN");
+        }else{        
+            var indiceDestino = (ubicacionActual + 1);
+            console.log("indiceDestino: " +  indiceDestino);
+            var destino = rutas[parseInt(team)][indiceDestino];
+            console.log("destino: " +  destino);
+            tipText.innerHTML = places[destino];
+            console.log("Destino: " + places[destino]);
+        }
     } else {
         tipText.className = "hidden_tip";
     }
