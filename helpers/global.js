@@ -1,5 +1,5 @@
 var places = [
-    "BIENVENIDO A LA YINCANA", /*0*/
+    /*"BIENVENIDO A LA YINCANA", 0*/
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/AZ.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 1*/
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/BY.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 2*/
     "Siguiente paso: <strong><a target=\"_blank\" href=\"../sitios/CX.html\">HAZ CLIC AQUÍ</a></strong>", /*envia al 3*/
