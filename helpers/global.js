@@ -40,8 +40,7 @@ var teams = [
 
 
 
-var rutaGrupo0 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-
+var rutaGrupo0 = [0, 4, 5, 6, 7, 8, 9, 1, 2, 3, 0];
 var rutaGrupo1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var rutaGrupo2 = [0, 2, 3, 4, 5, 6, 7, 8, 9, 1, 10];
 var rutaGrupo3 = [0, 3, 4, 5, 6, 7, 8, 9, 1, 2, 10];
